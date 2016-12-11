@@ -1,0 +1,17 @@
+
+$http({
+  "method": "get",
+  "url": "https://api.coinsecure.in/v0/noauth/ticker",
+  "headers": {
+    "accept": "application/json",
+    "content-type": "text/plain"
+  },
+  "data": null,
+  "params": {}
+})
+.then(
+    function success(response) {
+    },
+    function error(response) {
+    }
+)

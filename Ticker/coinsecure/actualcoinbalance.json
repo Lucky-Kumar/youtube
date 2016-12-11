@@ -1,0 +1,16 @@
+$http({
+  "method": "post",
+  "url": "https://api.coinsecure.in/v0/auth/actualcoinbalance",
+  "headers": {
+    "accept": "application/json",
+    "content-type": "text/plain"
+  },
+  "data": "",
+  "params": {}
+})
+.then(
+    function success(response) {
+    },
+    function error(response) {
+    }
+)
